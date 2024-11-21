@@ -1,7 +1,7 @@
 package com.empmngsystem.backend.exception;
 
 
-import com.empmngsystem.backend.dto.response.ErrorResponse;
+import com.empmngsystem.backend.dto.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

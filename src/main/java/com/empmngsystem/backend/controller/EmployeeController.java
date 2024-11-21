@@ -1,9 +1,8 @@
 package com.empmngsystem.backend.controller;
 
-import com.empmngsystem.backend.dto.response.EmployeeDTO;
+import com.empmngsystem.backend.dto.EmployeeDTO;
 import com.empmngsystem.backend.entity.Employee;
 import com.empmngsystem.backend.service.EmployeeService;
-import com.empmngsystem.backend.exception.CustomException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;

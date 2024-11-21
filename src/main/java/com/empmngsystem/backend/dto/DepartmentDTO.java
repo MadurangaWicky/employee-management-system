@@ -1,5 +1,6 @@
-package com.empmngsystem.backend.dto.response;
+package com.empmngsystem.backend.dto;
 
+import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 @ToString
 public class DepartmentDTO {
     private Long id;
+    @NotBlank(message = "name is required")
     private String name;
     private List<Long> employeeIds;
 }

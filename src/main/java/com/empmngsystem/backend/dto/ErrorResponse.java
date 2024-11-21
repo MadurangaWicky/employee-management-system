@@ -1,4 +1,4 @@
-package com.empmngsystem.backend.dto.response;
+package com.empmngsystem.backend.dto;
 
 import lombok.Builder;
 import lombok.Data;

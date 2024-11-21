@@ -1,12 +1,11 @@
 package com.empmngsystem.backend.service;
 
-import com.empmngsystem.backend.dto.response.EmployeeDTO;
+import com.empmngsystem.backend.dto.EmployeeDTO;
 import com.empmngsystem.backend.entity.Department;
 import com.empmngsystem.backend.entity.Employee;
 import com.empmngsystem.backend.exception.CustomException;
 import com.empmngsystem.backend.repo.DepartmentRepository;
 import com.empmngsystem.backend.repo.EmployeeRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

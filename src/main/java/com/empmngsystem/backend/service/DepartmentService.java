@@ -1,6 +1,6 @@
 package com.empmngsystem.backend.service;
 
-import com.empmngsystem.backend.dto.response.DepartmentDTO;
+import com.empmngsystem.backend.dto.DepartmentDTO;
 import com.empmngsystem.backend.entity.Department;
 import com.empmngsystem.backend.exception.CustomException;
 import com.empmngsystem.backend.repo.DepartmentRepository;
